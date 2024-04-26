@@ -24,7 +24,9 @@ The answer should be
 1. Create a first instance by clicking on **ADD NEW INSTANCE**
 1. Clone the example Node JS app with: `git clone https://github.com/gnschenker/sample-node-app.git`
 1. Navigate to the app folder
-1. Install nvm https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating
+1. Install nvm. Detailed instructions here: https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating
+    1. Run `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash`
+    2. Execute `source ~/.profile` 
 1. Install node `nvm install node`
 1. Install application dependencies with `npm install`
 1. Run the application with `npm start`
